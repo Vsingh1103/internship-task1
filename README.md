@@ -1,8 +1,11 @@
 # internship-task1
 creating database and tables
+
 In this repo i have created a database name of e_commerce in which multiple table is created names as Customer,Product,Orders,OrderDetails and Payment
 Primary Keys(PK):-Customer(CustomerID),Product(ProductID,)Orders(OrderID),OrderDetails(OrderDetailID) and Payment(PaymentID).
-Foreign Keys (FK):-Orders.CustomerID → Customer.CustomerID,OrderDetails.OrderID → Orders.OrderID,OrderDetails.ProductID → Product.ProductID,Payment.OrderID → Orders.OrderID
+
+Foreign Keys(FK):-
+Orders.CustomerID → Customer.CustomerID,OrderDetails.OrderID → Orders.OrderID,OrderDetails.ProductID → Product.ProductID,Payment.OrderID → Orders.OrderID
 
 
 -- Customer Table
